@@ -1,0 +1,12 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(198, 215, 248);
+  /* overflow-y: hidden; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
