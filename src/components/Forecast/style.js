@@ -42,6 +42,13 @@ const DailyDetails = styled.div`
   background-color: #edf5fa;
   border-radius: 15px;
   margin: 5px;
+  transform: translateY(-20px);
+  animation: ani 1s forwards;
+
+  @keyframes ani {
+    0% {transform: translateY(-20px);}
+    100% {transform: translateY(0);}
+  }
 `;
 
 const DailyDetailsItem = styled.div`
